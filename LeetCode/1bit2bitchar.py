@@ -17,7 +17,7 @@
 
 
 class Solution:
-    def isOneBitCharacter(self, bits: List[int]) -> bool:
+    def isOneBitCharacter(self, bits) -> bool:
         if bits[-2:] == [0, 0]:
             return True
         if bits[-1] == 1:
