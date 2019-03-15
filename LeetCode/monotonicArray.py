@@ -25,3 +25,5 @@ class Solution:
             if x or y:
                 return True
             return False
+
+#Can be returned in one line too. 
