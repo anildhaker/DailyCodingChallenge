@@ -26,4 +26,4 @@ class Solution:
                 return True
             return False
 
-#Can be returned in one line too. 
+#Can be returned in one line too.
