@@ -18,7 +18,7 @@
 # to the starting pixel.
 
 class Solution:
-    def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
+    def floodFill(self, image, sr, sc, newColor):
         r = len(image)
         c = len(image[0])
         color = image[sr][sc]
