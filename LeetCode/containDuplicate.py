@@ -8,7 +8,7 @@
 # Output: true
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums):
         s = set(nums)
         
         return len(s) != len(nums)
