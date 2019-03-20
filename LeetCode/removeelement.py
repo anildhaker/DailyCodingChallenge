@@ -14,7 +14,7 @@
 
 
 class Solution:
-    def removeElement(self, nums, val):
+    def removeElement(self,nums,val):
       start = 0
       end = len(nums) - 1
       
