@@ -2,7 +2,7 @@
 
 # eg. n = 4 p =2 --> 4! = 24 = 2*2*2*3 --> should return 4 else return Zero.
 
-# Method - 1 - Naive approach. Just count power of p from 1 to n. and add them.
+# Just count power of p from 1 to n. and add them.
 
 def powerPinNfactorial(n, p):
   ans = 0
@@ -17,7 +17,12 @@ def powerPinNfactorial(n, p):
   return ans
   
 
-print(powerPinNfactorial(8,2))
+print(powerPinNfactorial(8, 2))
+
+
+
+
+
   
   
 
