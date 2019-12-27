@@ -1,4 +1,4 @@
-# represent any positive interger as sum of two non-consecutive fib numbers.
+# represent any positive interger as sum of non-consecutive fib numbers.
 
 def nearestSmallEqFib(n):
   if n == 0 or n == 1:
