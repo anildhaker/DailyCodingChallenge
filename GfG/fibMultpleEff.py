@@ -18,3 +18,4 @@ def isDivisibleby_10(n):
     return True
   return False
   
+# time complexity - O(1)
