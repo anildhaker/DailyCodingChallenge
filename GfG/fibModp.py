@@ -1,5 +1,7 @@
 # fib modulo p.
 # find the fib term when for the first time fibModp becomes zero.
+# concept here is that ..instead of calculating each term and then remainder
+# we will just add the remainder of two previous terms. 
 
 def findMinZero(p):
   first = 1
